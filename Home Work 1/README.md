@@ -1,3 +1,36 @@
+### Problem 1: Types of Attributes (14 points)
+
+***Classify the following attributes as nominal, ordinal, interval, ratio.***
+
+*(a) Rating of an Amazon product by a person on a scale of 1 to 5*
+
+`Ordinal Scale Data` - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
+
+*(b) The Internet Speed*
+
+`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+
+*(c) Number of customers in a store*
+
+`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+
+*(d) UCF Student ID*
+
+`Nominal Scale Data` : It’s a Named Variable and used to label variables in different classifications and does not imply a 	quantitative value or order.
+
+*(e) Distance*
+
+`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+
+*(f) Letter grade (A, B, C, D)*
+
+`Ordinal Scale Data` - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
+
+*(g) The temperature at Orlando*
+
+`Interval Scale Data` — It’s a qualitative measure and it may go to Negative and there is no starting or Zero point.
+
+
 ### Problem 2: Exploring Data Preprocessing Techniques (26 points) 
  
 ***Read the solution post of the Kaggle Titanic Dataset:***
@@ -67,37 +100,6 @@ Hence, it will beThe length and width ratio of the boxes are
      A4=3:3 => 1:1
 
 - `According to the length and width ratio (A1 and A3) and (A2 and A4) can be grouped together.`
-
-
-|x  | y | x^2 | y^2 | xy |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2 | 1 | 4 | 1 | 2 |
-| 1  | 1  | 1| 1 | 1 |
-|6 | 3 | 36 | 9 | 18 |
-|3 | 3 | 9 | 9 | 9 |
-
-          n = 4;
-          
-          SUM(x) = 12;
-          
-          SUM(y) = 8;
-          
-          SUM(xy) = 30;
-          
-          SUM(x^2) = 50;
-          
-          SUM(y^2) = 20
-
-          r = 0.802(approx).  => Strong positive correlation between the 4 variables
-
-- For A1, the correlation is contributing towards the final value and also two negative values become positive[(2-3)/3.74 and (1-2)/1.15]
-
-- For A2, the correlation is contributing towards the final value and also two negative values become positive[(1-3)/3.74 and (1-2)/1.15]
-
-- For A3, the correlation is contributing towards the final value and also two positive values become positive[(6-3)/3.74 and (3-2)/1.15]
-
-- For A4, though the value becomes zero but it is actually increasing the value of n which results in decreasing the overall value.
-
 
 **2. Which proximity measure would you use to group the boxes based on their size?**
 
