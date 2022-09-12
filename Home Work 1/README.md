@@ -4,31 +4,31 @@
 
 *(a) Rating of an Amazon product by a person on a scale of 1 to 5*
 
-`Ordinal Scale Data` - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
+***`Ordinal Scale Data`*** - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
 
 *(b) The Internet Speed*
 
-`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+***`Ratio Scale Data`*** - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
 
 *(c) Number of customers in a store*
 
-`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+***`Ratio Scale Data`*** - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
 
 *(d) UCF Student ID*
 
-`Nominal Scale Data` : It’s a Named Variable and used to label variables in different classifications and does not imply a 	quantitative value or order.
+***`Nominal Scale Data`*** : It’s a Named Variable and used to label variables in different classifications and does not imply a 	quantitative value or order.
 
 *(e) Distance*
 
-`Ratio Scale Data` - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
+***`Ratio Scale Data`*** - It can’t go Negative and there’s a Starting or Zero point and it's a measurement scale that not only produces the order of the variables, but also makes the difference between the known variables along with information about the value of the true zero.
 
 *(f) Letter grade (A, B, C, D)*
 
-`Ordinal Scale Data` - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
+***`Ordinal Scale Data`*** - It's used to represent non-mathematical ideas such as frequency, satisfaction,happiness, a degree of pain, etc.
 
 *(g) The temperature at Orlando*
 
-`Interval Scale Data` — It’s a qualitative measure and it may go to Negative and there is no starting or Zero point.
+***`Interval Scale Data`*** — It’s a qualitative measure and it may go to Negative and there is no starting or Zero point.
 
 
 ### Problem 2: Exploring Data Preprocessing Techniques (26 points) 
@@ -41,9 +41,39 @@ Run the code and reproduce the data preprocessing and classification modeling st
  
 - `Q1 (Reproduce): Please read, understand, run the code and reproduce the model accuracies. Please briefly explain whether you can reproduce the classification accuracies of  'Support Vector Machines', 'KNN', 'Logistic Regression',  'Random Forest', 'Naive Bayes', 'Perceptron', 'Stochastic Gradient Decent', 'Linear SVC', 'Decision Tree'. (10 points)`
  
+ 1. Initially I register to Kaggle and click on copy and edit button to run the given kaggle notebook with kernel.`
+
+ 2. I ran all the cells and then able to reproduce the classification accuracies, for all the models with slight changes in the accuracies.`
+ 
+
+<p align = 'center'>
+            <img src = Images/ML_Results_given.png />
+</p>
+
 - `Q2 (Improve): Is the data preprocessing process proposed in the Kaggle post the best preprocessing solution? If yes, please explain why. If not, can you leverage what you learned in the class and your previous experiences to improve data processing, to obtain better accuracies for all these classification models? Describe what is your improved data preprocessing, and what are your improved accuracies?  (16 points)`
 
+***`Steps followed to Improve the Accuracy`***
 
+**Step 1 - Shoed Distributions for Features**
+
+**Step 2 - Data Munging :** Working with missing values
+
+           Replaced the missing values with 'C' for Embarked feature
+
+**Step 3 - Outlier Imputation :** For Age and Fare, and created bins
+
+          Replaced all missing Age with mean value
+          Replaced with median age of gender
+          Replaced with median age of Pclass
+          Replaced with median age of title
+          
+**Step 4 - Feature Engineering :** For Age, FamilySize and added New Feature Ismother 
+
+**Step 5 - Categorical Feature Encoding** : Created Encoding Values for Categorical Features and then Droped and Reorder Columns.
+
+<p align = 'center'>
+            <img src = Images/Model_Output_Results.png />
+</p>
 
 ### Problem 3: Distance/Similarity Measures (10 points)
 
