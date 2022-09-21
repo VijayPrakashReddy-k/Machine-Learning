@@ -8,11 +8,15 @@ https://www.kaggle.com/competitions/titanic/leaderboard
 
 - The accuracy of your model predictions
 
+<p align = 'center'>
+            <img src = model_predictions.png/>
+</p>
+
 - The ranking of your ML model performance in the Kaggle leader board
 
-- The screen snapshot as the evidence of your team name (single member team), your ranking, and your model accuracy in the leader board.
+            The ranking of ML model performance in the Kaggle leader board 322
 
-- Please include a website address (e.g., Github, Dropbox, OneDrive, GoogleDrive). 
+- The screen snapshot as the evidence of your team name (single member team), your ranking, and your model accuracy in the leader board.
 
 ### Compettion Results:
 
