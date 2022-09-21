@@ -13,3 +13,9 @@ https://www.kaggle.com/competitions/titanic/leaderboard
 - The screen snapshot as the evidence of your team name (single member team), your ranking, and your model accuracy in the leader board.
 
 - Please include a website address (e.g., Github, Dropbox, OneDrive, GoogleDrive). 
+
+### Compettion Results:
+
+<p align = 'center'>
+            <img src = ML_Competition1.png />
+</p>
