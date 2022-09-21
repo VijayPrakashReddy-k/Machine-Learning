@@ -17,6 +17,9 @@ https://www.kaggle.com/competitions/titanic/leaderboard
             The ranking of ML model performance in the Kaggle leader board 322
 
 - The screen snapshot as the evidence of your team name (single member team), your ranking, and your model accuracy in the leader board.
+<p align = 'center'>
+            <img src = Team_Name.png />
+</p>
 
 ### Compettion Results:
 
