@@ -2,6 +2,8 @@
 
 **Competition link**: https://www.kaggle.com/c/spaceship-titanic/overview
 
+**Notebook link**: https://www.kaggle.com/vijayprakashreddy/ml-competition2-final-notebook/edit
+
 <img src="https://images.unsplash.com/photo-1534996858221-380b92700493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHxr8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80" width="100%" height=200px>
 
 # Spaceship Titanic : 
