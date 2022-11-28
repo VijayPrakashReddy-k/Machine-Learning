@@ -1,5 +1,7 @@
 ### Competition 2
 
+**Competition link**: https://www.kaggle.com/c/spaceship-titanic/overview
+
 <img src="https://images.unsplash.com/photo-1534996858221-380b92700493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHxr8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80" width="100%" height=200px>
 
 # Spaceship Titanic
@@ -47,8 +49,3 @@ In this competition your task is to predict whether a passenger was transported 
 - `sample_submission.csv` A submission file in the correct format.
   - `PassengerId` - Id for each passenger in the test set.
   - `Transported` - The target. For each passenger, predict either `True` or `False`.
-
-
-**Competition link**: https://www.kaggle.com/c/spaceship-titanic/overview
-
-**Notebook link**: [st-competition-notebook.ipynb](https://github.com/team-pass-ds/Spaceship-Titanic/blob/master/notebooks/st-competition-notebook.ipynb)
